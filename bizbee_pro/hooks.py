@@ -213,3 +213,16 @@ app_license = "MIT"
 # auth_hooks = [
 # 	"bizbee_pro.auth.validate"
 # ]
+
+fixtures = [
+    {"dt": "Custom Field", "filters": [["module", "=", "Bizbee Pro"]]}
+]
+
+# In your custom app's hooks.py
+
+from bizbee_pro.reminder import trigger_on_login
+
+def on_session_creation(login_manager):
+    trigger_on_login()
+
+
