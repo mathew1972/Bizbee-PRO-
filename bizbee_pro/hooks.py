@@ -215,7 +215,9 @@ app_license = "MIT"
 # ]
 
 fixtures = [
-    {"dt": "Custom Field", "filters": [["module", "=", "Bizbee Pro"]]},
+    {"dt": "Custom Field", "filters": [["module", "=", "Bizbee_pro"]]},
+    {"dt": "Property Setter", "filters": [["module", "=", "Bizbee_pro"]]},
+    {"dt": "Client Script", "filters": [["module", "=", "Bizbee_pro"]]},
     {"dt": "Client Category"}
 ]
 
