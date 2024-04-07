@@ -1,0 +1,86 @@
+[
+ {
+  "client_category": "Food and Beverage",
+  "docstatus": 0,
+  "doctype": "Client Category",
+  "modified": "2024-03-07 10:11:47.577344",
+  "name": "Food and Beverage"
+ },
+ {
+  "client_category": "Real Estate",
+  "docstatus": 0,
+  "doctype": "Client Category",
+  "modified": "2024-03-06 20:33:36.655876",
+  "name": "Real Estate"
+ },
+ {
+  "client_category": "Logistics and Transportation",
+  "docstatus": 0,
+  "doctype": "Client Category",
+  "modified": "2024-03-07 10:10:07.528801",
+  "name": "Logistics and Transportation"
+ },
+ {
+  "client_category": "Media and Advertising",
+  "docstatus": 0,
+  "doctype": "Client Category",
+  "modified": "2024-03-07 10:12:07.943382",
+  "name": "Media and Advertising"
+ },
+ {
+  "client_category": "Consulting Services",
+  "docstatus": 0,
+  "doctype": "Client Category",
+  "modified": "2024-03-07 10:12:28.382448",
+  "name": "Consulting Services"
+ },
+ {
+  "client_category": "Automotive",
+  "docstatus": 0,
+  "doctype": "Client Category",
+  "modified": "2024-03-07 10:12:48.561953",
+  "name": "Automotive"
+ },
+ {
+  "client_category": "Energy and Utilities",
+  "docstatus": 0,
+  "doctype": "Client Category",
+  "modified": "2024-03-07 10:13:05.125290",
+  "name": "Energy and Utilities"
+ },
+ {
+  "client_category": "Information Technology",
+  "docstatus": 0,
+  "doctype": "Client Category",
+  "modified": "2024-03-07 10:13:23.368082",
+  "name": "Information Technology"
+ },
+ {
+  "client_category": "Construction and Engineering",
+  "docstatus": 0,
+  "doctype": "Client Category",
+  "modified": "2024-03-07 10:13:36.964224",
+  "name": "Construction and Engineering"
+ },
+ {
+  "client_category": "Finance and Banking",
+  "docstatus": 0,
+  "doctype": "Client Category",
+  "modified": "2024-03-07 10:14:07.208319",
+  "name": "Finance and Banking"
+ },
+ {
+  "client_category": "Hospitality and Tourism",
+  "docstatus": 0,
+  "doctype": "Client Category",
+  "modified": "2024-03-07 10:14:19.635833",
+  "name": "Hospitality and Tourism"
+ },
+ {
+  "client_category": "Health",
+  "docstatus": 0,
+  "doctype": "Client Category",
+  "modified": "2024-03-08 17:27:04.476315",
+  "name": "Health"
+ }
+]

@@ -215,7 +215,8 @@ app_license = "MIT"
 # ]
 
 fixtures = [
-    {"dt": "Custom Field", "filters": [["module", "=", "Bizbee Pro"]]}
+    {"dt": "Custom Field", "filters": [["module", "=", "Bizbee Pro"]]},
+    {"dt": "Client Category"}
 ]
 
 # In your custom app's hooks.py
