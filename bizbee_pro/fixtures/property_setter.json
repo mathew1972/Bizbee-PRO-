@@ -4766,5 +4766,37 @@
   "property_type": "Check",
   "row_name": null,
   "value": "1"
+ },
+ {
+  "default_value": null,
+  "doc_type": "Item",
+  "docstatus": 0,
+  "doctype": "Property Setter",
+  "doctype_or_field": "DocField",
+  "field_name": "is_zero_rated",
+  "is_system_generated": 0,
+  "modified": "2024-04-08 19:52:58.380724",
+  "module": "Bizbee_pro",
+  "name": "Item-is_zero_rated-hidden",
+  "property": "hidden",
+  "property_type": "Check",
+  "row_name": null,
+  "value": "1"
+ },
+ {
+  "default_value": null,
+  "doc_type": "Item",
+  "docstatus": 0,
+  "doctype": "Property Setter",
+  "doctype_or_field": "DocField",
+  "field_name": "is_exempt",
+  "is_system_generated": 0,
+  "modified": "2024-04-08 19:54:11.357604",
+  "module": "Bizbee_pro",
+  "name": "Item-is_exempt-hidden",
+  "property": "hidden",
+  "property_type": "Check",
+  "row_name": null,
+  "value": "1"
  }
 ]
