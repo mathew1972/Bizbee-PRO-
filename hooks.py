@@ -218,7 +218,7 @@ fixtures = [
     {"dt": "Custom Field", "filters": [["module", "=", "Bizbee Pro"]]},
     {"dt": "Property Setter", "filters": [["module", "=", "Bizbee_pro"]]},
     {"dt": "Client Script", "filters": [["module", "=", "Bizbee_pro"]]},
-    {"dt": "Client Category"}
+    {"dt": "Client Category"}    
 ]
 
 # In your custom app's hooks.py
