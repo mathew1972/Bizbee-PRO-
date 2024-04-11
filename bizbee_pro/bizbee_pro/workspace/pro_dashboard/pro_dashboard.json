@@ -1,0 +1,59 @@
+{
+ "charts": [
+  {
+   "chart_name": "Sales Order Trends",
+   "label": "Sales Order Trends"
+  },
+  {
+   "chart_name": "Top Customers",
+   "label": "Top Customers"
+  }
+ ],
+ "content": "[{\"id\":\"_fu3COhHIS\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Dashboard</b></span>\",\"col\":12}},{\"id\":\"QYyjgkjEID\",\"type\":\"custom_block\",\"data\":{\"custom_block_name\":\"Line\",\"col\":12}},{\"id\":\"p5ZgiEud6Y\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Total Client\",\"col\":4}},{\"id\":\"d07TVKQthu\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Total Outgoing Bills\",\"col\":4}},{\"id\":\"_E9xi2IvTO\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Annual Sales\",\"col\":4}},{\"id\":\"GdfjrnXhTR\",\"type\":\"custom_block\",\"data\":{\"custom_block_name\":\"Line-2\",\"col\":12}},{\"id\":\"ACrxNYiUvc\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Sales Order Trends\",\"col\":6}},{\"id\":\"U-172l3XBG\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Top Customers\",\"col\":6}},{\"id\":\"JO7LfRLhn9\",\"type\":\"custom_block\",\"data\":{\"custom_block_name\":\"Line-2\",\"col\":12}}]",
+ "creation": "2024-03-08 18:15:22.130142",
+ "custom_blocks": [
+  {
+   "custom_block_name": "Line-2",
+   "label": "Line-2"
+  },
+  {
+   "custom_block_name": "Line",
+   "label": "Line"
+  }
+ ],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "dashboard-list",
+ "idx": 0,
+ "is_hidden": 0,
+ "label": "PRO Dashboard",
+ "links": [],
+ "modified": "2024-04-10 21:10:29.885316",
+ "modified_by": "Administrator",
+ "module": "Bizbee_pro",
+ "name": "PRO Dashboard",
+ "number_cards": [
+  {
+   "label": "Total Outgoing Bills",
+   "number_card_name": "Total Outgoing Bills"
+  },
+  {
+   "label": "Total Client",
+   "number_card_name": "Active Client"
+  },
+  {
+   "label": "Annual Sales",
+   "number_card_name": "Annual Sales"
+  }
+ ],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 2.0,
+ "shortcuts": [],
+ "title": "PRO Dashboard"
+}

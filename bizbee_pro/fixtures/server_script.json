@@ -1,0 +1,34 @@
+[
+ {
+  "allow_guest": 0,
+  "api_method": null,
+  "cron_format": null,
+  "disabled": 0,
+  "docstatus": 0,
+  "doctype": "Server Script",
+  "doctype_event": "After Submit",
+  "event_frequency": "All",
+  "modified": "2024-04-10 08:58:59.366321",
+  "module": "Bizbee_pro",
+  "name": "Reminder",
+  "reference_doctype": "Delivery Note",
+  "script": "def insert_project_data(doc):\n    # Fetch all data from Delivery Note doctype\n    test_docs = frappe.get_all(\n        \"Delivery Note\",\n        filters={},\n        fields=[\"name\",\"customer\"],\n        limit=1,\n        order_by=\"creation desc\"\n    )\n\n    if test_docs:\n        latest_test_doc = test_docs[0]\n\n             \n        # Fetch Delivery Note Item\n        test3_docs = frappe.get_all(\n            \"Delivery Note Item\",\n            filters={\"parent\": doc.name},  \n            fields=[\"item_code\", \"item_name\", \"qty\", \"custom_approval_date\", \"custom_expiry_date\"]\n        )\n\n       \n        #if test3_docs:\n        \t\n        for test3 in test3_docs:\n                \n            # Create RemindMe\n            office_doc = frappe.new_doc(\"Reminder\")\n            office_doc.item_code = test3.item_code\n            office_doc.item_name = test3.item_name\n            office_doc.quantity = test3.qty\n            office_doc.date_of_expiry = test3.custom_expiry_date\n            office_doc.client_name = latest_test_doc.customer\n                \n    \n            # Save the ReminMe\n            office_doc.insert(ignore_permissions=True)\n\n# Assuming you have a 'doc' variable defined somewhere before calling the function\ninsert_project_data(doc)\n",
+  "script_type": "DocType Event"
+ },
+ {
+  "allow_guest": 0,
+  "api_method": null,
+  "cron_format": null,
+  "disabled": 0,
+  "docstatus": 0,
+  "doctype": "Server Script",
+  "doctype_event": "After Save",
+  "event_frequency": "All",
+  "modified": "2024-04-10 08:58:35.834116",
+  "module": "Bizbee_pro",
+  "name": "Legal Documentation",
+  "reference_doctype": "Customer",
+  "script": "def insert_project_data(doc):\n    # Fetch all data from Customer doctype\n    test_docs = frappe.get_all(\n        \"Customer\",\n        filters={},\n        fields=[\"name\",\"customer_name\"],\n        limit=1,\n        order_by=\"creation desc\"\n    )\n\n    if test_docs:\n        latest_test_doc = test_docs[0]\n\n             \n        # Fetch Legal Documentation\n        test3_docs = frappe.get_all(\n            \"Legal Documentation\",\n            filters={\"parent\": doc.name},  \n            fields=[\"service_code\", \"service_name\", \"qty\", \"document_no\", \"expiry_date\"]\n        )\n\n       \n        #if test3_docs:\n        \t\n        for test3 in test3_docs:\n                \n            # Create RemindMe\n            office_doc = frappe.new_doc(\"Reminder\")\n            office_doc.item_code = test3.service_code\n            office_doc.item_name = test3.service_name\n            office_doc.quantity = test3.qty\n            office_doc.date_of_expiry = test3.expiry_date\n            office_doc.document_no = test3.document_no\n            office_doc.client_name = latest_test_doc.customer_name\n                \n    \n            # Save the ReminMe\n            office_doc.insert(ignore_permissions=True)\n\n# Assuming you have a 'doc' variable defined somewhere before calling the function\ninsert_project_data(doc)\n",
+  "script_type": "DocType Event"
+ }
+]

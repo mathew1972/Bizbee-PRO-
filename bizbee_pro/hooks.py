@@ -218,15 +218,19 @@ fixtures = [
     {"dt": "Custom Field", "filters": [["module", "=", "Bizbee_pro"]]},
     {"dt": "Property Setter", "filters": [["module", "=", "Bizbee_pro"]]},
     {"dt": "Client Script", "filters": [["module", "=", "Bizbee_pro"]]},
-    {"dt": "Client Category"}
-        
+    {"dt": "Server Script", "filters": [["module", "=", "Bizbee_pro"]]},  
+    {"dt": "Web Page", "filters": [["module", "=", "Bizbee_pro"]]},  
+    {"dt": "Website Theme", "filters": [["module", "=", "Bizbee_pro"]]},
+    {"dt": "Workspace", "filters": [["module", "=", "Bizbee_pro"]]},
+    {"dt": "Number Card", "filters": [["module", "=", "Bizbee_pro"]]},
+    {"dt": "Navbar Settings"},
+    {"dt": "Custom HTML Block"},
+
+    {"dt": "Website Settings"},  
+
+    {"dt": "Client Category"}    
 ]
 
+
 # In your custom app's hooks.py
-
-from bizbee_pro.reminder import trigger_on_login
-
-def on_session_creation(login_manager):
-    trigger_on_login()
-
 

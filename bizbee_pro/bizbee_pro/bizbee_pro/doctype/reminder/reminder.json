@@ -1,0 +1,127 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-03-09 13:05:23.672712",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "client_name",
+  "name1",
+  "item_code",
+  "column_break_utcvu",
+  "item_name",
+  "quantity",
+  "document_no",
+  "date_of_expiry",
+  "column_break_f0kq2",
+  "status",
+  "section_break_jjgg7",
+  "note_section",
+  "note"
+ ],
+ "fields": [
+  {
+   "fieldname": "client_name",
+   "fieldtype": "Link",
+   "in_global_search": 1,
+   "label": "Compant Name",
+   "options": "Customer"
+  },
+  {
+   "fieldname": "name1",
+   "fieldtype": "Data",
+   "label": "Client Name"
+  },
+  {
+   "bold": 1,
+   "columns": 4,
+   "fieldname": "item_code",
+   "fieldtype": "Link",
+   "in_filter": 1,
+   "in_global_search": 1,
+   "in_list_view": 1,
+   "label": "Item Code",
+   "options": "Item",
+   "print_width": "150px",
+   "reqd": 1,
+   "width": "150px"
+  },
+  {
+   "fieldname": "column_break_utcvu",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "item_name",
+   "fieldtype": "Data",
+   "label": " Item Name"
+  },
+  {
+   "fieldname": "quantity",
+   "fieldtype": "Int",
+   "hidden": 1,
+   "in_list_view": 1,
+   "label": "Quantity"
+  },
+  {
+   "fieldname": "document_no",
+   "fieldtype": "Data",
+   "label": "Document No."
+  },
+  {
+   "fieldname": "date_of_expiry",
+   "fieldtype": "Date",
+   "label": "Date Of Expiry"
+  },
+  {
+   "fieldname": "column_break_f0kq2",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "Active\nExpiration\nExpired\nClosed"
+  },
+  {
+   "fieldname": "section_break_jjgg7",
+   "fieldtype": "Section Break"
+  },
+  {
+   "collapsible": 1,
+   "fieldname": "note_section",
+   "fieldtype": "Section Break",
+   "label": "Note"
+  },
+  {
+   "fieldname": "note",
+   "fieldtype": "Small Text",
+   "label": "Note"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-04-07 21:44:21.199860",
+ "modified_by": "Administrator",
+ "module": "Bizbee_pro",
+ "name": "Reminder",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

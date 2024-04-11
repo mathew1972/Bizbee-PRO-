@@ -1,0 +1,63 @@
+{
+ "charts": [],
+ "content": "[{\"id\":\"Xg2DsJhVTN\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Document Reminder</span>\",\"col\":12}},{\"id\":\"Mu_okdAZpN\",\"type\":\"custom_block\",\"data\":{\"custom_block_name\":\"Line\",\"col\":12}},{\"id\":\"0KpFZh3mcn\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Active Document\",\"col\":3}},{\"id\":\"PBe9OHWG1P\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Expiration Document\",\"col\":3}},{\"id\":\"buozzy_qLm\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Expired\",\"col\":3}},{\"id\":\"hOOHWOXnke\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Closed\",\"col\":3}},{\"id\":\"YZtjsq9G5O\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"GVHokvoRwU\",\"type\":\"custom_block\",\"data\":{\"custom_block_name\":\"Line-2\",\"col\":12}},{\"id\":\"64JIEQV2RQ\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Reminder\",\"col\":3}},{\"id\":\"8LlEyq6D5z\",\"type\":\"custom_block\",\"data\":{\"custom_block_name\":\"Line-2\",\"col\":12}}]",
+ "creation": "2024-03-09 19:00:39.507469",
+ "custom_blocks": [
+  {
+   "custom_block_name": "Line-2",
+   "label": "Line-2"
+  },
+  {
+   "custom_block_name": "Line",
+   "label": "Line"
+  }
+ ],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "support",
+ "idx": 0,
+ "is_hidden": 0,
+ "label": "RemindMe",
+ "links": [],
+ "modified": "2024-04-10 21:10:54.558744",
+ "modified_by": "Administrator",
+ "module": "Bizbee_pro",
+ "name": "RemindMe",
+ "number_cards": [
+  {
+   "label": "Expiration Document",
+   "number_card_name": "Expiration Document"
+  },
+  {
+   "label": "Expired",
+   "number_card_name": "Expired"
+  },
+  {
+   "label": "Closed",
+   "number_card_name": "Reminder - Closed"
+  },
+  {
+   "label": "Active Document",
+   "number_card_name": "Active Document"
+  }
+ ],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 4.0,
+ "shortcuts": [
+  {
+   "color": "Green",
+   "doc_view": "List",
+   "label": "Reminder",
+   "link_to": "Reminder",
+   "stats_filter": "[]",
+   "type": "DocType"
+  }
+ ],
+ "title": "RemindMe"
+}
