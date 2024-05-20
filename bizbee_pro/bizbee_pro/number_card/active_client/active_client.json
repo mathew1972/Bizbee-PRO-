@@ -1,6 +1,6 @@
 {
  "aggregate_function_based_on": "",
- "color": "#000000",
+ "color": "",
  "creation": "2024-03-09 18:51:54.877662",
  "docstatus": 0,
  "doctype": "Number Card",
@@ -12,7 +12,7 @@
  "is_public": 1,
  "is_standard": 1,
  "label": "Active Client",
- "modified": "2024-04-10 21:22:15.758611",
+ "modified": "2024-04-30 21:58:49.345225",
  "modified_by": "Administrator",
  "module": "Bizbee_pro",
  "name": "Active Client",

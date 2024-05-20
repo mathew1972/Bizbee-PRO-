@@ -1,6 +1,6 @@
 {
  "aggregate_function_based_on": "base_net_total",
- "color": "#000000",
+ "color": "",
  "creation": "2020-07-17 11:25:34.725416",
  "docstatus": 0,
  "doctype": "Number Card",
@@ -12,7 +12,7 @@
  "is_public": 1,
  "is_standard": 1,
  "label": "Total Outgoing Bills",
- "modified": "2024-04-10 21:29:28.389559",
+ "modified": "2024-04-30 22:02:28.086702",
  "modified_by": "Administrator",
  "module": "Bizbee_pro",
  "name": "Total Outgoing Bills",

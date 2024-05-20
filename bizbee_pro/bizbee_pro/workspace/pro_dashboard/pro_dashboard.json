@@ -9,7 +9,7 @@
    "label": "Top Customers"
   }
  ],
- "content": "[{\"id\":\"_fu3COhHIS\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Dashboard</b></span>\",\"col\":12}},{\"id\":\"QYyjgkjEID\",\"type\":\"custom_block\",\"data\":{\"custom_block_name\":\"Line\",\"col\":12}},{\"id\":\"p5ZgiEud6Y\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Total Client\",\"col\":4}},{\"id\":\"d07TVKQthu\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Total Outgoing Bills\",\"col\":4}},{\"id\":\"_E9xi2IvTO\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Annual Sales\",\"col\":4}},{\"id\":\"GdfjrnXhTR\",\"type\":\"custom_block\",\"data\":{\"custom_block_name\":\"Line-2\",\"col\":12}},{\"id\":\"ACrxNYiUvc\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Sales Order Trends\",\"col\":6}},{\"id\":\"U-172l3XBG\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Top Customers\",\"col\":6}},{\"id\":\"JO7LfRLhn9\",\"type\":\"custom_block\",\"data\":{\"custom_block_name\":\"Line-2\",\"col\":12}}]",
+ "content": "[{\"id\":\"_fu3COhHIS\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>PRO Dashboard</b></span>\",\"col\":12}},{\"id\":\"QYyjgkjEID\",\"type\":\"custom_block\",\"data\":{\"custom_block_name\":\"Line\",\"col\":12}},{\"id\":\"p5ZgiEud6Y\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Total Client\",\"col\":4}},{\"id\":\"d07TVKQthu\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Total Outgoing Bills\",\"col\":4}},{\"id\":\"_E9xi2IvTO\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Annual Sales\",\"col\":4}},{\"id\":\"GdfjrnXhTR\",\"type\":\"custom_block\",\"data\":{\"custom_block_name\":\"Line-2\",\"col\":12}},{\"id\":\"ACrxNYiUvc\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Sales Order Trends\",\"col\":6}},{\"id\":\"U-172l3XBG\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Top Customers\",\"col\":6}},{\"id\":\"JO7LfRLhn9\",\"type\":\"custom_block\",\"data\":{\"custom_block_name\":\"Line-2\",\"col\":12}}]",
  "creation": "2024-03-08 18:15:22.130142",
  "custom_blocks": [
   {
@@ -30,7 +30,7 @@
  "is_hidden": 0,
  "label": "PRO Dashboard",
  "links": [],
- "modified": "2024-04-10 21:10:29.885316",
+ "modified": "2024-05-03 21:54:24.333357",
  "modified_by": "Administrator",
  "module": "Bizbee_pro",
  "name": "PRO Dashboard",

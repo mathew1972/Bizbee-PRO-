@@ -5,5 +5,5 @@
 from frappe.tests.utils import FrappeTestCase
 
 
-class TestReminder(FrappeTestCase):
+class TestPurchaseUpdate(FrappeTestCase):
 	pass

@@ -1,0 +1,97 @@
+{
+ "actions": [],
+ "autoname": "autoincrement",
+ "creation": "2024-05-01 10:47:03.871058",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "estimate_no",
+  "client_name",
+  "column_break_dokhp",
+  "item_code",
+  "item_name",
+  "column_break_bvmn9",
+  "department",
+  "quantity",
+  "section_break_x07ex",
+  "status"
+ ],
+ "fields": [
+  {
+   "fieldname": "estimate_no",
+   "fieldtype": "Data",
+   "label": "Estimate No"
+  },
+  {
+   "fieldname": "item_code",
+   "fieldtype": "Data",
+   "label": "Item Code"
+  },
+  {
+   "fieldname": "department",
+   "fieldtype": "Data",
+   "label": "Department"
+  },
+  {
+   "default": "PO Pending",
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "PO Created\nPO Pending"
+  },
+  {
+   "fieldname": "quantity",
+   "fieldtype": "Float",
+   "label": "Quantity"
+  },
+  {
+   "fieldname": "client_name",
+   "fieldtype": "Data",
+   "label": "Client Name"
+  },
+  {
+   "fieldname": "item_name",
+   "fieldtype": "Data",
+   "label": "Item  Name"
+  },
+  {
+   "fieldname": "column_break_dokhp",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_bvmn9",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_x07ex",
+   "fieldtype": "Section Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-05-01 20:56:16.779864",
+ "modified_by": "Administrator",
+ "module": "Bizbee_pro",
+ "name": "Purchase Update",
+ "naming_rule": "Autoincrement",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

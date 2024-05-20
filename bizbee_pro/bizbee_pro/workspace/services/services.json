@@ -1,6 +1,15 @@
 {
- "charts": [],
- "content": "[{\"id\":\"p3-9P2wXF8\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>PRO Services</b></span>\",\"col\":12}},{\"id\":\"QEQJp87I6F\",\"type\":\"custom_block\",\"data\":{\"custom_block_name\":\"Line\",\"col\":12}},{\"id\":\"BAgMx_Rcn7\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Estimate to Bill/ Job Ongoing\",\"col\":3}},{\"id\":\"b-OU6ds8Eb\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Estimate On Hold\",\"col\":3}},{\"id\":\"cr3c1LWKGx\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Estimate Closed\",\"col\":3}},{\"id\":\"UTMYO7YLWQ\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Estimate Completed\",\"col\":3}},{\"id\":\"1KMglemrVT\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"R-3KM1aYV1\",\"type\":\"custom_block\",\"data\":{\"custom_block_name\":\"Line-2\",\"col\":12}},{\"id\":\"RsNLSswdb6\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Estimate\",\"col\":3}},{\"id\":\"rD73XfvPuk\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Job Completed\",\"col\":3}},{\"id\":\"q5mxtIlAOz\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Sales Invoice\",\"col\":3}},{\"id\":\"qgt4sGutUa\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Payment Entry\",\"col\":3}},{\"id\":\"9Em59z1uPy\",\"type\":\"custom_block\",\"data\":{\"custom_block_name\":\"Line-2\",\"col\":12}}]",
+ "charts": [
+  {
+   "chart_name": "Sales Order Trends",
+   "label": "Sales Order Trends"
+  },
+  {
+   "chart_name": "Purchase Order Trends",
+   "label": "Purchase Order Trends"
+  }
+ ],
+ "content": "[{\"id\":\"p3-9P2wXF8\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Services Dashboard</b></span>\",\"col\":12}},{\"id\":\"QEQJp87I6F\",\"type\":\"custom_block\",\"data\":{\"custom_block_name\":\"Line\",\"col\":12}},{\"id\":\"AZjp1n79R9\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Sales Order Trends\",\"col\":6}},{\"id\":\"BISpcv-s37\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Purchase Order Trends\",\"col\":6}},{\"id\":\"1KMglemrVT\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"R-3KM1aYV1\",\"type\":\"custom_block\",\"data\":{\"custom_block_name\":\"Line-2\",\"col\":12}}]",
  "creation": "2024-03-08 19:51:55.068901",
  "custom_blocks": [
   {
@@ -21,67 +30,17 @@
  "is_hidden": 0,
  "label": "Services",
  "links": [],
- "modified": "2024-04-10 21:11:46.345552",
+ "modified": "2024-04-30 21:55:04.123898",
  "modified_by": "Administrator",
  "module": "Bizbee_pro",
  "name": "Services",
- "number_cards": [
-  {
-   "label": "Estimate On Hold",
-   "number_card_name": "Estimate On Hold"
-  },
-  {
-   "label": "Estimate Closed",
-   "number_card_name": "Estimate Closed"
-  },
-  {
-   "label": "Estimate to Bill/ Job Ongoing",
-   "number_card_name": "Sales Orders to Bill"
-  },
-  {
-   "label": "Estimate Completed",
-   "number_card_name": "Estimate Completed"
-  }
- ],
+ "number_cards": [],
  "owner": "Administrator",
  "parent_page": "",
  "public": 1,
  "quick_lists": [],
  "roles": [],
  "sequence_id": 3.0,
- "shortcuts": [
-  {
-   "color": "Green",
-   "doc_view": "List",
-   "label": "Estimate",
-   "link_to": "Sales Order",
-   "stats_filter": "[]",
-   "type": "DocType"
-  },
-  {
-   "color": "Green",
-   "doc_view": "List",
-   "label": "Payment Entry",
-   "link_to": "Payment Entry",
-   "stats_filter": "[]",
-   "type": "DocType"
-  },
-  {
-   "color": "Red",
-   "doc_view": "List",
-   "label": "Sales Invoice",
-   "link_to": "Sales Invoice",
-   "stats_filter": "[]",
-   "type": "DocType"
-  },
-  {
-   "color": "Orange",
-   "doc_view": "List",
-   "label": "Job Completed",
-   "link_to": "Delivery Note",
-   "stats_filter": "[]",
-   "type": "DocType"
-  }
- ],
+ "shortcuts": [],
  "title": "Services"
 }

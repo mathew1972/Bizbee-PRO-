@@ -1,5 +1,5 @@
 {
- "color": "#000000",
+ "color": "",
  "creation": "2020-07-20 20:17:16.625001",
  "docstatus": 0,
  "doctype": "Number Card",
@@ -11,7 +11,7 @@
  "is_public": 1,
  "is_standard": 1,
  "label": "Sales Orders to Bill",
- "modified": "2024-04-10 21:22:37.129254",
+ "modified": "2024-04-30 21:33:07.960813",
  "modified_by": "Administrator",
  "module": "Bizbee_pro",
  "name": "Sales Orders to Bill",

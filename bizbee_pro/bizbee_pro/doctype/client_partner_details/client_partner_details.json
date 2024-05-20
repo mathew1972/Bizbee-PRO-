@@ -6,7 +6,7 @@
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
-  "parther_name",
+  "partner_name",
   "share_",
   "mobile_no",
   "passport_no",
@@ -14,13 +14,6 @@
   "bank_account"
  ],
  "fields": [
-  {
-   "columns": 2,
-   "fieldname": "parther_name",
-   "fieldtype": "Data",
-   "in_list_view": 1,
-   "label": "Parther Name"
-  },
   {
    "columns": 1,
    "fieldname": "share_",
@@ -52,12 +45,19 @@
    "fieldtype": "Data",
    "in_list_view": 1,
    "label": "Bank Account No"
+  },
+  {
+   "columns": 2,
+   "fieldname": "partner_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Partner Name"
   }
  ],
  "index_web_pages_for_search": 1,
  "istable": 1,
  "links": [],
- "modified": "2024-04-07 21:39:45.219215",
+ "modified": "2024-04-16 21:21:48.591667",
  "modified_by": "Administrator",
  "module": "Bizbee_pro",
  "name": "Client Partner Details",

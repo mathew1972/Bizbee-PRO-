@@ -1,6 +1,6 @@
 [
  {
-  "app_logo": "/files/Global Link8c9dcb.png",
+  "app_logo": "/files/Link PRO-New.png",
   "docstatus": 0,
   "doctype": "Navbar Settings",
   "help_dropdown": [
@@ -50,7 +50,7 @@
    },
    {
     "action": "frappe.ui.toolbar.show_about()",
-    "hidden": 1,
+    "hidden": 0,
     "is_standard": 1,
     "item_label": "About",
     "item_type": "Action",
@@ -82,8 +82,8 @@
     "route": "https://frappe.io/support"
    }
   ],
-  "logo_width": 0,
-  "modified": "2024-04-11 11:12:47.175742",
+  "logo_width": 200,
+  "modified": "2024-05-20 20:09:33.093488",
   "name": "Navbar Settings",
   "settings_dropdown": [
    {

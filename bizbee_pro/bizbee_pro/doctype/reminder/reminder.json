@@ -1,6 +1,7 @@
 {
  "actions": [],
  "allow_rename": 1,
+ "autoname": "format:REM/{MM}/{YYYY}/{#####}",
  "creation": "2024-03-09 13:05:23.672712",
  "default_view": "List",
  "doctype": "DocType",
@@ -8,7 +9,6 @@
  "engine": "InnoDB",
  "field_order": [
   "client_name",
-  "name1",
   "item_code",
   "column_break_utcvu",
   "item_name",
@@ -28,11 +28,6 @@
    "in_global_search": 1,
    "label": "Compant Name",
    "options": "Customer"
-  },
-  {
-   "fieldname": "name1",
-   "fieldtype": "Data",
-   "label": "Client Name"
   },
   {
    "bold": 1,
@@ -102,10 +97,11 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-04-07 21:44:21.199860",
+ "modified": "2024-04-14 10:11:59.969415",
  "modified_by": "Administrator",
  "module": "Bizbee_pro",
  "name": "Reminder",
+ "naming_rule": "Expression",
  "owner": "Administrator",
  "permissions": [
   {

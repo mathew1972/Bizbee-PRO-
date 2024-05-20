@@ -1,11 +1,11 @@
 [
  {
   "address": "<div class=\"ql-editor read-mode\"><p>Al Mussallah Tower-Al Fahidi Heights Tower</p><p>4th Floor, Office Number 366 Khalid Bin Al Waleed Rd</p><p>PO Box Number: 624699 Bur Dubai, Dubai - UAE</p><p><br></p><p><br></p><p>\u00a9 2024 All Rights are Reserved by Bizbee Insights.</p></div>",
-  "app_logo": "/files/Global Link.png",
+  "app_logo": "/files/Link PRO-New.png",
   "app_name": "simplify your work",
   "auto_account_deletion": 72,
   "banner_html": null,
-  "banner_image": "/files/Global Link.png",
+  "banner_image": "/files/Link PRO-New (1).png",
   "brand_html": null,
   "call_to_action": null,
   "call_to_action_url": null,
@@ -17,7 +17,7 @@
   "enable_view_tracking": 0,
   "favicon": null,
   "footer_items": [],
-  "footer_logo": "/files/Bizbee_Logo-removebg-preview.png",
+  "footer_logo": "/files/Bizbee PRO New.jpeg",
   "footer_powered": "Ennovations Techserv Pvt. Ltd.",
   "footer_template": "",
   "footer_template_values": null,
@@ -26,10 +26,10 @@
   "head_html": null,
   "hide_footer_signup": 0,
   "hide_login": 0,
-  "home_page": "bizbee-pro",
+  "home_page": "bizbee-pro-2",
   "indexing_authorization_code": null,
   "indexing_refresh_token": null,
-  "modified": "2024-04-11 11:08:59.817125",
+  "modified": "2024-05-20 20:09:33.098111",
   "name": "Website Settings",
   "navbar_search": 0,
   "navbar_template": null,
@@ -38,10 +38,21 @@
   "route_redirects": [],
   "show_account_deletion_link": 0,
   "show_language_picker": 0,
-  "splash_image": "/files/Bizbee Round Logo9e9b16.png",
+  "splash_image": "/files/Bizbee PRO New.jpeg",
   "subdomain": null,
-  "title_prefix": null,
+  "title_prefix": "Bizbee",
   "top_bar_items": [
+   {
+    "icon": null,
+    "label": "Documentation",
+    "open_in_new_tab": 0,
+    "parent": "Website Settings",
+    "parent_label": null,
+    "parentfield": "top_bar_items",
+    "parenttype": "Website Settings",
+    "right": 1,
+    "url": "pro-documentation"
+   },
    {
     "icon": null,
     "label": "Help",
@@ -63,6 +74,17 @@
     "parenttype": "Website Settings",
     "right": 1,
     "url": "/contact"
+   },
+   {
+    "icon": null,
+    "label": "FAQ",
+    "open_in_new_tab": 0,
+    "parent": "Website Settings",
+    "parent_label": null,
+    "parentfield": "top_bar_items",
+    "parenttype": "Website Settings",
+    "right": 1,
+    "url": "/faq"
    }
   ],
   "website_theme": "Bizbee",

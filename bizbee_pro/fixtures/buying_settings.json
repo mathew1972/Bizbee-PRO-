@@ -1,0 +1,26 @@
+[
+ {
+  "allow_multiple_items": 1,
+  "backflush_raw_materials_of_subcontract_based_on": "BOM",
+  "bill_for_rejected_quantity_in_purchase_invoice": 1,
+  "blanket_order_allowance": 0.0,
+  "buying_price_list": "Standard Buying",
+  "disable_last_purchase_rate": 0,
+  "docstatus": 0,
+  "doctype": "Buying Settings",
+  "maintain_same_rate": 1,
+  "maintain_same_rate_action": "Warn",
+  "modified": "2024-05-06 10:41:04.448555",
+  "name": "Buying Settings",
+  "over_transfer_allowance": 0.0,
+  "po_required": "No",
+  "pr_required": "No",
+  "project_update_frequency": "Each Transaction",
+  "role_to_override_stop_action": null,
+  "set_landed_cost_based_on_purchase_invoice_rate": 0,
+  "show_pay_button": 1,
+  "supp_master_name": "Supplier Name",
+  "supplier_group": null,
+  "use_transaction_date_exchange_rate": 0
+ }
+]

@@ -1,0 +1,87 @@
+{
+ "charts": [],
+ "content": "[{\"id\":\"s2YGG1HVxc\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Sales</span>\",\"col\":12}},{\"id\":\"CHV2daGt0C\",\"type\":\"custom_block\",\"data\":{\"custom_block_name\":\"Line\",\"col\":12}},{\"id\":\"1EECT8B7cv\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Estimate to Bill/ Job Ongoing\",\"col\":3}},{\"id\":\"6okNhtbzDx\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Estimate On Hold\",\"col\":3}},{\"id\":\"6z9CtzK0DN\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Estimate Closed\",\"col\":3}},{\"id\":\"plP5HQJdh5\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Estimate Completed\",\"col\":3}},{\"id\":\"vfGDBk0T9H\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"qOqOKBd0Xj\",\"type\":\"custom_block\",\"data\":{\"custom_block_name\":\"Line-2\",\"col\":12}},{\"id\":\"J209zgI_e1\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Estimate\",\"col\":3}},{\"id\":\"H0rWtf1XKg\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Sales Invoice\",\"col\":3}},{\"id\":\"ugudIT36I-\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Payment Entry\",\"col\":3}},{\"id\":\"mqaYYxzzcu\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Job Completed\",\"col\":3}},{\"id\":\"mZ74yJLs4U\",\"type\":\"custom_block\",\"data\":{\"custom_block_name\":\"Line-2\",\"col\":12}}]",
+ "creation": "2024-04-30 21:25:39.447933",
+ "custom_blocks": [
+  {
+   "custom_block_name": "Line-2",
+   "label": "Line-2"
+  },
+  {
+   "custom_block_name": "Line",
+   "label": "Line"
+  }
+ ],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "project",
+ "idx": 0,
+ "is_hidden": 0,
+ "label": "Sales",
+ "links": [],
+ "modified": "2024-05-03 21:33:10.626286",
+ "modified_by": "Administrator",
+ "module": "Bizbee_pro",
+ "name": "Sales",
+ "number_cards": [
+  {
+   "label": "Estimate to Bill/ Job Ongoing",
+   "number_card_name": "Sales Orders to Bill"
+  },
+  {
+   "label": "Estimate On Hold",
+   "number_card_name": "Estimate On Hold"
+  },
+  {
+   "label": "Estimate Closed",
+   "number_card_name": "Estimate Closed"
+  },
+  {
+   "label": "Estimate Completed",
+   "number_card_name": "Estimate Completed"
+  }
+ ],
+ "owner": "Administrator",
+ "parent_page": "Services",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 25.0,
+ "shortcuts": [
+  {
+   "color": "Green",
+   "doc_view": "List",
+   "label": "Estimate",
+   "link_to": "Sales Order",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Red",
+   "doc_view": "List",
+   "label": "Sales Invoice",
+   "link_to": "Sales Invoice",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Pink",
+   "doc_view": "List",
+   "label": "Payment Entry",
+   "link_to": "Payment Entry",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Orange",
+   "doc_view": "List",
+   "label": "Job Completed",
+   "link_to": "Delivery Note",
+   "stats_filter": "[]",
+   "type": "DocType"
+  }
+ ],
+ "title": "Sales"
+}

@@ -225,12 +225,19 @@ fixtures = [
     {"dt": "Number Card", "filters": [["module", "=", "Bizbee_pro"]]},
     {"dt": "Navbar Settings"},
     {"dt": "Custom HTML Block"},
-
     {"dt": "Website Settings"},  
-
-    {"dt": "Client Category"}    
+    {"dt": "Client Category"},  
+    {"dt": "Customer"}, 
+    {"dt": "Item"},
+    {"dt": "Supplier"},
+    {"dt": "Item Price"},
+    {"dt": "Accounts Settings"}, 
+    {"dt": "Selling Settings"},
+    {"dt": "Buying Settings"},
+    {"dt": "Whitelabel Setting"} 
 ]
 
 
-# In your custom app's hooks.py
+
+
 

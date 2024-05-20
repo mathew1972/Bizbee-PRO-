@@ -1,0 +1,19 @@
+[
+ {
+  "app_logo_set": 1,
+  "application_logo": "/files/Link PRO-New.png",
+  "custom_navbar_title": "",
+  "custom_navbar_title_style": "",
+  "disable_new_update_popup": 0,
+  "docstatus": 0,
+  "doctype": "Whitelabel Setting",
+  "ignore_onboard_whitelabel": 0,
+  "logo_height": "",
+  "logo_width": "",
+  "modified": "2024-05-20 20:09:33.056291",
+  "name": "Whitelabel Setting",
+  "navbar_background_color": "#febd59",
+  "show_help_menu": 1,
+  "whitelabel_app_name": null
+ }
+]

@@ -21,7 +21,7 @@
  "is_hidden": 0,
  "label": "Master",
  "links": [],
- "modified": "2024-04-10 21:12:12.679397",
+ "modified": "2024-04-30 22:05:02.704699",
  "modified_by": "Administrator",
  "module": "Bizbee_pro",
  "name": "Master",
@@ -47,6 +47,14 @@
  "sequence_id": 5.0,
  "shortcuts": [
   {
+   "color": "Blue",
+   "doc_view": "List",
+   "label": "Company",
+   "link_to": "Company",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
    "color": "Green",
    "doc_view": "List",
    "label": "Client",
@@ -71,10 +79,10 @@
    "type": "DocType"
   },
   {
-   "color": "Grey",
+   "color": "Orange",
    "doc_view": "List",
-   "label": "Company",
-   "link_to": "Company",
+   "label": "Pricing Rule",
+   "link_to": "Pricing Rule",
    "stats_filter": "[]",
    "type": "DocType"
   },
@@ -83,14 +91,6 @@
    "doc_view": "List",
    "label": "Supplier",
    "link_to": "Supplier",
-   "stats_filter": "[]",
-   "type": "DocType"
-  },
-  {
-   "color": "Yellow",
-   "doc_view": "List",
-   "label": "Pricing Rule",
-   "link_to": "Pricing Rule",
    "stats_filter": "[]",
    "type": "DocType"
   }
