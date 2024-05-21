@@ -219,23 +219,16 @@ fixtures = [
     {"dt": "Property Setter", "filters": [["module", "=", "Bizbee_pro"]]},
     {"dt": "Client Script", "filters": [["module", "=", "Bizbee_pro"]]},
     {"dt": "Server Script", "filters": [["module", "=", "Bizbee_pro"]]},  
-    {"dt": "Web Page", "filters": [["module", "=", "Bizbee_pro"]]},  
-    {"dt": "Website Theme", "filters": [["module", "=", "Bizbee_pro"]]},
     {"dt": "Workspace", "filters": [["module", "=", "Bizbee_pro"]]},
     {"dt": "Number Card", "filters": [["module", "=", "Bizbee_pro"]]},
     {"dt": "Navbar Settings"},
     {"dt": "Custom HTML Block"},
-    {"dt": "Website Settings"},  
     {"dt": "Client Category"},  
-    {"dt": "Customer"}, 
-    {"dt": "Item"},
-    {"dt": "Supplier"},
-    {"dt": "Item Price"},
     {"dt": "Accounts Settings"}, 
     {"dt": "Selling Settings"},
     {"dt": "Buying Settings"},
     {"dt": "Whitelabel Setting"} 
-]
+    ]
 
 
 
