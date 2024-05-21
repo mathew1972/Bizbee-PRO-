@@ -220,14 +220,7 @@ fixtures = [
     {"dt": "Client Script", "filters": [["module", "=", "Bizbee_pro"]]},
     {"dt": "Server Script", "filters": [["module", "=", "Bizbee_pro"]]},  
     {"dt": "Workspace", "filters": [["module", "=", "Bizbee_pro"]]},
-    {"dt": "Number Card", "filters": [["module", "=", "Bizbee_pro"]]},
-    {"dt": "Navbar Settings"},
-    {"dt": "Custom HTML Block"},
-    {"dt": "Client Category"},  
-    {"dt": "Accounts Settings"}, 
-    {"dt": "Selling Settings"},
-    {"dt": "Buying Settings"},
-    {"dt": "Whitelabel Setting"} 
+    {"dt": "Number Card", "filters": [["module", "=", "Bizbee_pro"]]}         
     ]
 
 
